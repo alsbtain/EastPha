@@ -43,14 +43,16 @@
 			document.addEventListener("offline", onOffline, false);
 			
 			function onOffline() {
-				document.getElementById('webIframe').style.display = "none";
-				document.getElementById('loadingImg').src = "no-wifi.svg";
+				// document.getElementById('webIframe').style.display = "none";
+				// document.getElementById('loadingImg').src = "no-wifi.svg";
+				alert('Offline!');
 			}
 			
 			function onOnline() {
-				document.getElementById('loadingImg').src = "loading.svg";
-				document.getElementById('webIframe').contentWindow.location.reload();				
-				document.getElementById('webIframe').style.display = "inline";
+				// document.getElementById('loadingImg').src = "loading.svg";
+				// document.getElementById('webIframe').contentWindow.location.reload();				
+				// document.getElementById('webIframe').style.display = "inline";
+				alert('Online!');
 			}
 			
 		</script>
