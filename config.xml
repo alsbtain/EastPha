@@ -11,12 +11,12 @@
     <author email="ahaltalaq@moh.gov.sa" href="http://EastPha.com/app">
         Ayman
     </author>
-	<preference name="phonegap-version" value="cli-7.1.0" />
+	<preference name="phonegap-version" value="cli-6.0.0" />
 	
-	<plugin name="cordova-custom-config" spec="https://github.com/dpa99c/cordova-custom-config.git" source="git" />
+	<!--<plugin name="cordova-custom-config" spec="https://github.com/dpa99c/cordova-custom-config.git" source="git" />
 	<platform name="ios">
 		<custom-preference name="ios-XCBuildConfiguration-ARCHS" value="x86_64" buildType="debug" xcconfigEnforce="true" />
-	</platform>
+	</platform>-->
 	
 	<plugin name="cordova-plugin-inappbrowser" spec="2.0.2" />
 	<plugin name="cordova-plugin-network-information" spec="2.0.1" />
