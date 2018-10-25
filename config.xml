@@ -15,7 +15,7 @@
 	
 	<plugin name="cordova-custom-config" spec="https://github.com/dpa99c/cordova-custom-config.git" source="git" />
 	<platform name="ios">
-		<custom-preference name="ARCHS" value="x86_64" />
+		<custom-preference name="ios-XCBuildConfiguration-ARCHS" value="x86_64" buildType="debug" xcconfigEnforce="false" />
 	</platform>
 	
 	<plugin name="cordova-plugin-inappbrowser" spec="2.0.2" />
